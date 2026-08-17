@@ -1,0 +1,24 @@
+@{
+    ViewBag.Title = "Home";
+}
+
+<div class="jumbotron">
+    <h1>Product Catalog</h1>
+    <p class="lead">A legacy ASP.NET MVC 5 application running on .NET Framework 4.8, demonstrating classic patterns ready for modernization.</p>
+    <p><a href="@Url.Action("Index", "Products")" class="btn btn-primary btn-lg">Browse Products &raquo;</a></p>
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <h2>ASP.NET MVC 5</h2>
+        <p>Built with the classic Model-View-Controller pattern using Razor views and synchronous action methods.</p>
+    </div>
+    <div class="col-md-4">
+        <h2>Entity Framework 6</h2>
+        <p>Data access via EF6 with a repository pattern, synchronous LINQ queries, and SQL Server LocalDB.</p>
+    </div>
+    <div class="col-md-4">
+        <h2>.NET Framework 4.8</h2>
+        <p>Targeting the full .NET Framework 4.8, configured via <code>Web.config</code> and <code>packages.config</code>.</p>
+    </div>
+</div>
